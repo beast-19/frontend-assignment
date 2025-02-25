@@ -1,0 +1,16 @@
+.error {
+    background: #ff4d4d;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 500px;
+  }
+  
+  .error::before {
+    content: "⚠ ";
+  }
+  
